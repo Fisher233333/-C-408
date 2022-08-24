@@ -1,0 +1,3 @@
+"D:\software\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\wangdao408.dir/objects.a
+D:\codeENV\C\mingw64\bin\ar.exe cr CMakeFiles\wangdao408.dir/objects.a @CMakeFiles\wangdao408.dir\objects1.rsp
+D:\codeENV\C\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\wangdao408.dir/objects.a -Wl,--no-whole-archive  -o wangdao408.exe -Wl,--out-implib,libwangdao408.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\wangdao408.dir\linklibs.rsp

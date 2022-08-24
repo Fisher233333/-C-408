@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code/CProjects/wangdao408/head.cpp
+stdio.h
+-
+structureBase/linearListBase.cpp
+D:/code/CProjects/wangdao408/structureBase/linearListBase.cpp
+
+D:/code/CProjects/wangdao408/main.cpp
+iostream
+-
+head.cpp
+D:/code/CProjects/wangdao408/head.cpp
+
+D:/code/CProjects/wangdao408/structure/linearList.cpp
+
+D:/code/CProjects/wangdao408/structureBase/linearListBase.cpp
+../structure/linearList.cpp
+D:/code/CProjects/wangdao408/structure/linearList.cpp
+
